@@ -8,15 +8,16 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-aut
 import { getDatabase } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCzBDdHWLMkWN7bH3oJBdri6s5KRBM6EHk",
-  authDomain: "monitoring-iot-29ac6.firebaseapp.com",
-  databaseURL: "https://monitoring-iot-29ac6-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "monitoring-iot-29ac6",
-  storageBucket: "monitoring-iot-29ac6.firebasestorage.app",
-  messagingSenderId: "4724063661",
-  appId: "1:4724063661:web:0a03e34b61072f9fd97524",
-  measurementId: "G-2Y44SR9LMN"
+  apiKey: "AIzaSyALAqX1VvgcJN3q_MEp7iI29Oad7h9I_KM",
+  authDomain: "monitoring-cb909.firebaseapp.com",
+  databaseURL: "https://monitoring-cb909-default-rtdb.firebaseio.com",
+  projectId: "monitoring-cb909",
+  storageBucket: "monitoring-cb909.firebasestorage.app",
+  messagingSenderId: "880044490443",
+  appId: "1:880044490443:web:3bfd4eedfabdee9c03654e",
+  measurementId: "G-BGLVRZEQ6N"
 };
+
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
